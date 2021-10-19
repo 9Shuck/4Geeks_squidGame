@@ -4,12 +4,18 @@ h1,
 p,
 a,
 h3,
-h4 {
+h4,
+h5 {
   color: white;
   margin-top: 1rem;
   margin-bottom: 1.5rem;
 }
-
+a:visited {
+  color: white;
+}
+a:hover {
+  color: rgba(255, 224, 50, 0.35);
+}
 body {
   background-color: #ed1b76;
 }
@@ -104,15 +110,50 @@ body {
 
 .descriptionContainer {
   background-color: #249f9c;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
   border: white solid 0.1rem;
   border-radius: 0.4rem;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-bottom: 2rem;
 }
 
 .ladderContainer {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+.rulesP {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+
+.rulesContainer {
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  background-color: #7e9999;
+  border-radius: 0.4rem;
+  padding-top: 0.5rem;
+
+  width: 24%;
+}
+.rulesTitle {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.rulesList {
+  display: flex;
+  flex-direction: column;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  margin-bottom: 1rem;
+}
+.rulesMaxContainer {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 1rem;
+}
+
+.rulesLadder {
+  display: flex;
+  justify-content: space-between;
 }
