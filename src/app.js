@@ -5,7 +5,6 @@ import "./style.css";
 import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
-//JUST CODE BELOW HERE
 window.onload = function() {};
 
 const CLASS = document.querySelector(".Carolth7");
