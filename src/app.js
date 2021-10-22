@@ -18,6 +18,6 @@ BUTTON.addEventListener("click", event => {
   BOX.innerHTML = emojii;
   BUTTON.addEventListener("click", event => {
     event.preventDefault();
-    BOX.classList.add("auraGlow");
+    BOX.classList.toggle("auraGlow");
   });
 });
