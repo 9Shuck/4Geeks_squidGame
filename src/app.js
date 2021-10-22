@@ -11,8 +11,9 @@ const BUTTON = document.querySelector("#buttonClick");
 //JUST CODE BELOW HERE
 window.onload = function() {};
 BUTTON.addEventListener("click", () => {
-  EMOTICON.innerHTML = "🕹";
-  BUTTON.addEventListener("click", () => {
+  if (EMOTICON.innerHTML == "") {
+    EMOTICON.innerHTML = "🕹";
+  } else {
     EMOTICON.classList.toggle("auraGlow");
-  });
+  }
 });
