@@ -16,4 +16,5 @@ BOTTON.addEventListener("click", event => {
   event.preventDefault();
   let emotic = "🙌🏼";
   CLASS.innerHTML = emotic;
+  CLASS.classList.toggle("auraGlow");
 });
